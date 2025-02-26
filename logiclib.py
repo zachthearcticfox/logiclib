@@ -23,15 +23,6 @@ def or_(a:int, b:int):
 def not_(a:int):
     return ~(a)
 
-def nor_(a:int,b:int):
-    not_(or_(a,b))
-
-def xnor_(a:int,b:int):
-    not_(xor_(a,b))
-
-def nand_(a:int,b:int):
-    not_(and_(a,b))
-
 class Circuit:
     def __init_subclass__(self):
         print('logiclib v0.0.4 (beta)')

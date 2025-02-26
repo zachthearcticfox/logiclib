@@ -12,5 +12,5 @@ circuit.add_block(lgc.OUTPUT_PIN, 0,2)
 circuit.add_block(lgc.OUTPUT_PIN, 1,2)
 
 grid = circuit.color_visualize()
-print(grid)
+print(grid, '\n')
 print(circuit.to_cm2_save())
