@@ -1,4 +1,4 @@
-import logiclib as lgc #
+import logiclib as lgc
 
 class HalfAdder(lgc.Circuit): ...
 
